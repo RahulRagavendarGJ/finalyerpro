@@ -1,0 +1,225 @@
+{"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+             "responses":["hello","hey!","what can i do for you?"]
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
+             "responses":["have a nice day","goodbye"]
+            },
+            {
+             "tag":"age",
+             "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+             "responses":["I get reborn after every compilation","hey!","my owners are averagely 20 years!"]
+            },
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+             "responses":["you can call me Medbot!","i am Medbot!","i am Medbot your medical assistant"]
+            },
+            {
+             "tag":"common cold symptoms",
+             "patterns": ["Runny or stuffy nose",
+             "Sore throat",
+             "Cough",
+             "Congestion",
+             "Slight body aches or a mild headache",
+             "Sneezing",
+             "Low-grade fever",
+             "Generally feeling unwell (malaise)"],
+             "responses":["It seems that you are suffering from common cold"]
+            },
+            {
+             "tag":"fever symptoms",
+             "patterns":["Sweating",
+             "Chills and shivering",
+             "Headache",
+             "Muscle aches",
+             "Loss of appetite",
+             "Irritability",
+             "Dehydration",
+             "General weakness"],
+             "responses":["It seems that you are suffering from fever"]
+            },
+            {
+             "tag":"Diabetes symptoms",
+             "patterns":["increased hunger",
+             "increased thirst",
+             "weight loss",
+             "frequent urination",
+             "blurry vision",
+             "extreme fatigue"],
+             "responses":["It seems that you are suffering from Diabetes"]
+            },
+            {
+             "tag":"Depression symptoms",
+             "patterns":["Hopeless outlook",
+             "Lost interest",
+             "Increased fatigue",
+             "sleep problem",
+             "Anxiety",
+             "change in weight",
+             "Looking at death"],
+             "responses":["It seem that you are suffering from depression"]
+            },
+            {
+             "tag":"Asthma symptoms",
+             "patterns":["coughing",
+             "tightness in the chest",
+             "shortness of breath",
+             "difficulty talking",
+             "panic",
+             "fatigue"],
+             "responses":["It seem that you are suffering from Asthma"]
+            },
+            {
+             "tag":"gastric symptoms ",
+             "patterns":["Passing gas",
+             "Burping",
+             "Pain/Cramps",
+             "A knotted feeling in the abdomen",
+             "Stomach ache (Abdominal Pain)",
+             "Indigestion"  ],
+             "responses":["It seem that you are suffering from gastric symptoms"]
+            },
+            {
+                "tag":"dysentery symptoms",
+                "patterns":["Nausea",
+                "Vomiting",
+                "Diarrhea",
+                "Abdominal pain",
+                "Dehydration"],
+                "responses":["It seem that you are suffering from dysentery"]
+            },
+            {
+                "tag":"piles symptoms",
+                "patterns":["Anal itching",
+                "Swelling",
+                "Anal pain",
+                "Bleeding",
+                "Lumps near the anus",
+                "Slimy anal discharge",
+                "Sore skin on the anus"],
+                "responses":["It seem that you are suffering from piles "]
+
+            },
+            {
+            "tag":"indigestion symptoms",
+            "patterns":["Bloating.",
+            "Gas",
+            "Heartburn",
+            "Acid reflux",
+            "Nausea",
+            "Burping"],
+            "responses":["It seem that you are suffering from indigestion "]
+            },
+            {
+                "tag":"pink eyes symptoms",
+                "patterns":["Redness in the white of your eye",
+                "Dry eyes or watery eyes (epiphora)",
+                "Itchy or irritated eyes",
+                "Burning eyes",
+                "Blurred vision",
+                "Light sensitivity",
+                "Swollen eyelids",
+                "Eye pain or discomfort",
+                "Foreign object sensation" ],
+                "responses":["It seem that you are suffering from pink eyes"]
+
+            },
+            {
+                "tag":"vertigo symptoms",
+                "patterns":["Nausea and vomiting.",
+                "Dizziness.",
+                "Balance issues.",
+                "Hearing loss in one or both ears.",
+                "Tinnitus (ringing in your ears).",
+                "Headaches.",
+                "Motion sickness.",
+                "A feeling of fullness in your ear.",
+                "Nystagmus"],
+                "responses":["It seem that you are suffering from vertigo"]
+            },
+            {
+                "tag":"migraine symptoms",
+                "patterns":["Trouble sleeping",
+                "Mood changes.",
+                "Difficulty concentrating.",
+                "Fatigue",
+                "Ringing in your ears",
+                "Vision changes",
+                "Difficulty speaking or concentrating"],
+                "responses":["It seem that you are suffering from migraine"]
+            },
+            {
+             "tag":"common cold prevention",
+             "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+             "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+            },
+            {
+             "tag":"fever prevention",
+             "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+             "responses":["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+            },
+            {
+             "tag":"diabetes prevention",
+             "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+             "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+            },
+            {
+             "tag":"depression prevention",
+             "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+             "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+            },
+            {
+             "tag":"asthma prevention",
+             "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+             "responses":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+            },
+            {
+             "tag":"gastric prevention",
+             "patterns":["What medicines can I buy to help me with my gastric?","tell me some prevention method from gastric","What should I eat or drink if i am suffering from gastric?","How can I keep from getting gastric?"],
+             "responses":[" Some medications, including nonsteroidal anti-inflammatory drugs (NSAIDs), aspirin, antibiotics, and oral contraceptives, can irritate the stomach lining and increase the risk of gastric problems or ulcers."]
+            },
+            {
+                "tag":"dysentery prevention",
+                "patterns":["What medicines can I buy to help me with my dysentery?","tell me some prevention method from dysentery","What should I eat or drink if i am suffering from dysentery?","How can I keep from getting dysentery?"],
+                "responses":["If dysentery is caused by bacterial infection, antibiotics such as azithromycin, ciprofloxacin, or trimethoprim/sulfamethoxazole may be prescribed to target the specific bacteria responsible. Rehydration is crucial in managing dysentery, especially if diarrhoea is severe and there is a risk of dehydration. Drinking plenty of fluids, such as water, oral rehydration solutions (ORS), clear broths, and electrolyte-rich drinks, can help replace lost fluids and electrolytes."]
+
+            }, 
+            {
+                "tag":"piles prevention",
+                "patterns":["What medicines can I buy to help me with my piles?","tell me some prevention method from piles","What should I eat or drink if i am suffering from piles?","How can I keep from getting piles?","I have piles","piles"],
+                "responses":["Hydrocortisone for piles and itchy bottom Brand names: Anusol, Anugesic, Germaloids, Perinal, Proctosedyl, Uniroid, Xyloproct.. Use pain killers and stool softeners as prescribed by your doctor. If your symptoms indicate internal piles, you will need to get a digital rectal exam. Here are some surgery options your doctor might suggest: Laser piles surgery,Haemorrhoidectomy,Haemorrhoidal artery ligation,Haemorrhoidal artery ligation"]
+            },
+            {
+                "tag":"migraine prevention",
+                "patterns":["What medicines can I buy to help me with my migraine?","tell me some prevention method from migraine","What should I eat or drink if i am suffering from migraine?","How can I keep from getting migraine?","I have migraine"],
+                "responses":["medicines you can consume :Triptans (5-hydroxytryptamine),Ditans (lasmiditan),Gepants (rimegepant and ubrogepant),Dihydroergotamine (prochlorperazine),Antiemetic medications (metoclopramide). You can’t prevent all migraines. But you can take preventive migraine medications as directed by your healthcare provider to reduce how often and how severe migraine symptoms affect you."]
+            },            
+            {
+                "tag":"pink eyes prevention",
+                "patterns":["What medicines can I buy to help me with my pink eyes?","tell me some prevention method from pink eyes","What should I eat or drink if i am suffering from pink eyes?","How can I keep from getting pink eyes?"],
+                "responses":["medicines you can consume :polymyxin b/trimethoprim (Polytrim) ciprofloxacin (Ciloxan) are some Antibiotic eye drops may help reduce the infection's duration. To reduce the symptoms of bacterial or viral pink eye you can: Take ibuprofen or another over-the-counter pain killer. Use over-the-counter lubricating eye drops (artificial tears). Put a warm, damp washcloth over your eyes for a few minutes. "]
+            },
+            {
+                "tag":"indigestion prevention",
+                "patterns":["What medicines can I buy to help me with my indigestion?","tell me some prevention method from indigestion","What should I eat or drink if i am suffering from indigestion?","How can I keep from getting indigestion?"],
+                "responses":["medicines you can consume :antacid medications, like Tums ®, Rolaids ® and Pepto-Bismol ®. Antacids neutralize the acid in your stomach so it doesn’t irritate your tissues. Small sips of water when you’re experiencing indigestion may help a little."]
+            },
+            {
+                "tag":"vertigo prevention",
+                "patterns":["What medicines can I buy to help me with my vertigo?","tell me some prevention method from vertigo","What should I eat or drink if i am suffering from vertigo?","How can I keep from getting vertigo?"],
+                "responses":["There is no medicines for vertigo. Benign paroxysmal positional vertigo (BPPV) occurs when tiny calcium carbonate crystals (canaliths) move out of the utricle in your inner ear (where they belong) into your semicircular canals. \n This can cause vertigo symptoms, especially when you change your head position.Medication may help in some cases of acute (sudden onset, short duration) vertigo."]
+            },
+            {
+             "tag":"Consultation",
+             "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+             "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+            }
+           
+]}
+        
